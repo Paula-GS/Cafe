@@ -1,0 +1,143 @@
+body *{
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+body {
+text-align: center;
+font-family: 'Open Sans';
+}
+
+.oscuro {
+  color: #ffffff;
+  background: #000f08;
+}
+
+.oscuro a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icono svg{
+  width: 35px;
+  fill: #ffffff;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+nav {
+  padding: 20px 80px;
+  text-align: left;
+}
+
+.hero-section {
+text-align: right;
+background-image: url('../img/bg-hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffffff;
+text-shadow: 0px 3px 6px #00000080;
+padding: 125px 107px;
+/*en padding achiqué la imagen*/
+}
+
+h1 {
+font-weight: 800;
+font-size: 2.5em
+margin-bottom: 0.25;
+padding-left: 500px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 1.35;
+  }
+
+#ubicacion {
+  margin-top: 4em;
+  padding: 10px 100px;
+  margin-bottom: 4em;
+  }
+
+#ubicacion img {
+  width: 25%;
+}
+
+#ubicacion h2{
+margin: 1em auto;
+font-size: 1.6em;
+font-weight: bold;
+margin-bottom: 0.25em;
+}
+
+#ubicacion p {
+margin-left: 33%;
+margin-right: 33%;
+font-size: 0.75em;
+font-weight: lighter;
+}
+
+.centrado {
+  width: 75 %;
+  margin: 0 auto;
+}
+
+.brown {
+text-align: left;
+align-items: center;
+background-color: #A4452C;
+color: #ffffff;
+}
+
+.brown h3, .brown h5 {
+margin-bottom: 0.75em
+}
+
+.charla_speaker, .charla_texto {
+display: inline-block;
+}
+.charla_speaker {
+  width: 13%;
+  vertical-align: middle;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 30%;
+  }
+.charla_texto {
+  vertical-align: middle;
+  width: 35%;
+  padding-left: 1em;
+}
+
+.simposio, .machine, .scrum {
+  display: inline-block;
+}
+.simposio a, .machine a, .scrum a {
+  text-decoration: none;
+}
+
+#eventos h2{
+margin-top: 3em;
+margin-bottom: 2em;
+margin: 1em auto;
+}
+#eventos img {
+  width: 75%;
+}
+#eventos h3 {
+margin: 1em auto;
+}
+
+
+.iconos i {
+  padding: 0.1em;
+}
+#contacto p {
+  padding-bottom: 1em;
+  padding-top: 0.9em;
+}
